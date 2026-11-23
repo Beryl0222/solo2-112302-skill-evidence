@@ -1,0 +1,52 @@
+{
+  "project": "共同实训成果的文本对标与签发",
+  "material_title": "课堂评语、技能标准与实训签认记录",
+  "material_nature": "本地合成演练资料",
+  "records": [
+    {
+      "kind": "standard",
+      "id": "school-s1",
+      "text": "校方通则|能独立完成缺值核对和异常回填，或提交独立复跑并解释回填依据。"
+    },
+    {
+      "kind": "standard",
+      "id": "enterprise-e1",
+      "text": "企业签发条件|缺值核对与异常回填都须独立完成，且来自不同实训操作。"
+    },
+    {
+      "kind": "observation",
+      "id": "obs-1",
+      "text": "周一林霁工位|林霁自行核过缺值。下一项由同伴演示回填，他照着完成了复跑。"
+    },
+    {
+      "kind": "observation",
+      "id": "obs-2",
+      "text": "周二林霁工位|他把前天的表重新跑了一遍，没请人提示就改正了回填规则。"
+    },
+    {
+      "kind": "observation",
+      "id": "obs-3",
+      "text": "周二罗闻转述|“我看他在同一轮复跑里先核缺值、再回填。”说的是周二第二场操作。"
+    },
+    {
+      "kind": "opinion",
+      "id": "op-1",
+      "text": "周三教务补记|第二场上机交给罗闻的是回填那一段，林霁只负责核缺值。"
+    },
+    {
+      "kind": "opinion",
+      "id": "op-2",
+      "text": "周三企业口径|独立复跑的替代规则只适用于企业入门推荐，签发口径沿用 enterprise-e1。"
+    },
+    {
+      "kind": "handoff",
+      "id": "handoff-1",
+      "text": "周二校方学分签认|收件方教务处，原评语 obs-1、obs-2，适用 school-s1。"
+    },
+    {
+      "kind": "observation",
+      "id": "obs-4",
+      "text": "周四独立实训|林霁单独接到异常样表，不问旁人，复填后按原单逐条解释了依据。"
+    }
+  ]
+}
