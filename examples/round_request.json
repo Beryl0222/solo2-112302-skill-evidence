@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "action": "add_round",
+      "round_id": "round-2026-11-25",
+      "standards": [
+        {
+          "id": "school-s1",
+          "group": "school",
+          "text": "校方通则|能独立完成缺值核对和异常回填，或提交独立复跑并解释回填依据。"
+        },
+        {
+          "id": "enterprise-e1",
+          "group": "enterprise",
+          "text": "企业签发条件|缺值核对与异常回填都须独立完成，且来自不同实训操作。"
+        }
+      ],
+      "adoptions": [
+        {"group": "school", "standard_id": "school-s1", "purpose": "school_credit"},
+        {"group": "enterprise", "standard_id": "enterprise-e1", "purpose": "enterprise_certification"}
+      ],
+      "records": [
+        {
+          "id": "comment-1",
+          "kind": "observation",
+          "learner_name": "林霁",
+          "text": "周一工位|林霁自行核对缺值，又独立完成异常回填。"
+        },
+        {
+          "id": "comment-2",
+          "kind": "observation",
+          "learner_name": "林霁",
+          "text": "周四独立实训|林霁在另一个样表上独立完成异常回填，并逐条解释依据。"
+        }
+      ]
+    },
+    {
+      "action": "evaluate_group",
+      "group_name": "school",
+      "purpose": "school_credit"
+    },
+    {
+      "action": "evaluate_group",
+      "group_name": "enterprise",
+      "purpose": "enterprise_certification"
+    }
+  ]
+}

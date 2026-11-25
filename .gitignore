@@ -9,4 +9,6 @@ build/
 coverage/
 __pycache__/
 *.py[cod]
+.accreditation-state.json
+.accreditation-state.*.json
 .DS_Store
